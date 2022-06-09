@@ -18,6 +18,11 @@ namespace FilesHandling.Test.Controllers
             return View();
         }
 
+        public IActionResult FilePond()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
